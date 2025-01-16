@@ -38,5 +38,4 @@ foreach (var user in users)
 {
     Console.WriteLine($"#{user.Id}, {user.FirstName} {user.LastName} <{user.Email}> {user.PhoneNumber}");
     // Visual Studio förslog detta också som entity: {user.CreatedAt} ska fixa någon gång för den visar fel för jag la till entity med datetime.
-    Console.WriteLine("");
 }
